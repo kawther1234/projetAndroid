@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mybar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/checkable_list"
+        android:layout_width="wrap_content"
+        android:layout_height="168dp"
+        android:divider="@color/material_blue_grey_800"
+        tools:ignore="InvalidId">
+        <TextView
+            android:id="@+id/title_inter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+
+         />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+             />
+
+        <TextView
+            android:id="@+id/societe_inter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:text="TextView"
+           />
+
+        <TextView
+            android:id="@+id/adr_inter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            />
+
+        <TextView
+            android:id="@+id/time_inter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TextView"
+            />
+    </ListView>
+
+</LinearLayout>

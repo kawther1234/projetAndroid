@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/intervention"
+            android:title="Interventions" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/assignee"
+            android:title="Interventions à assigner" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/message"
+            android:title="Messages" />
+        <item
+            android:id="@+id/nav_client"
+            android:icon="@drawable/client"
+            android:title="Clients" />
+        <item
+            android:id="@+id/nav_adress"
+            android:icon="@drawable/adresse"
+            android:title="Adresses" />
+        <item
+            android:id="@+id/nav_parametres"
+            android:icon="@drawable/setting"
+            android:title="Paramétres" />
+        <item
+            android:id="@+id/nav_propos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="A propos" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/disconnect"
+            android:title="Deconnexion" />
+
+    </group>
+</menu>
